@@ -8,6 +8,7 @@ end
   # Print a custom greeting for each element
 
 def list_dwarves(array)
+  hash = Hash.new
  array.each_with_index {|name, index|
   array[name] = index
    index}
