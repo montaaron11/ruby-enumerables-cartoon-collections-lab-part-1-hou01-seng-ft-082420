@@ -12,7 +12,6 @@ def list_dwarves(array)
  array.each_with_index {|name, index|
   hash[name] = index
  }
- end
  hash
 end
   # Use `each_with_index` to enumerate over the provided array
